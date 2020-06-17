@@ -1,0 +1,15 @@
+# premier_league_draw
+Random drawing of teams
+
+def print_league_draw(a,b,ch,cp,t,w):
+    print(a, b, ch, cp, t, w)
+    print(w, b, a, ch, cp, t)
+    print(ch, t, cp, a, w, b)
+    print(w, cp, t, ch, a, b)
+    print(b, a, ch, cp, w, t)
+    print(t, ch, a, w, b, cp)
+    print(a, cp, w, t, b, ch)
+    
+    print_league_draw("Arsenal", "Brighton", "Chelsea", "Crystal Palace", "Tottenham", "West Ham")
+    
+    
