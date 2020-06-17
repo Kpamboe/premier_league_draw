@@ -10,6 +10,6 @@ def print_league_draw(a,b,ch,cp,t,w):
     print(t, ch, a, w, b, cp)
     print(a, cp, w, t, b, ch)
     
-    print_league_draw("Arsenal", "Brighton", "Chelsea", "Crystal Palace", "Tottenham", "West Ham")
+ print_league_draw("Arsenal", "Brighton", "Chelsea", "Crystal Palace", "Tottenham", "West Ham")
     
     
